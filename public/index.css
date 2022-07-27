@@ -1,0 +1,82 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgreen;
+    height: 97vh;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+} 
+
+.timer-control {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10rem;
+}
+
+input[name="date-timer"] {
+    padding: 2px 15px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.clear {
+    margin-top: 1rem;
+    padding: 4px;
+    border-radius: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.timer-started {
+    font-size: xx-large;
+    display: flex;
+    margin-top: 5rem
+}
+
+.timer-cleared {
+    display: none;
+}
+
+.helper-show {
+    display: block;
+    margin-top: 5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: xx-large;
+}
+
+.helper-hide {
+    display: none;
+}
+
+.change-effect {
+    background-color: ghostwhite;
+    border-radius: 10px;
+    padding: 2px 4px;
+}
+
+.timer-details {
+    display: flex;
+    font-size: xx-large;
+}
+
+.timer-details > .detail {
+    margin: 0px 8px;
+    font-size: larger;
+    margin-top: 5rem
+}
+
+.detail > span {
+    margin: 0px 5px;
+}
+
+.detail:not(:last-child):after {
+    content: ' - ';
+}

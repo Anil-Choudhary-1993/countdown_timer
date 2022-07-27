@@ -1,0 +1,14 @@
+{
+  "name": "countdown_timer_js",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn ts && node build/index.js",
+    "ts": "npx tsc",
+    "ts-watch": "npx tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
